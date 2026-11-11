@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Honey-Do Services | Lawn Care &amp; Junk Removal</title>
+<style>
+:root{--bg:#f6f8f3;--card:#fff;--text:#1d2a1f;--muted:#5a6a5d;--green:#2f7d3b;--green-d:#1f5a29;--line:#dde5d8;--on-green:#fff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a14;--card:#1b261e;--text:#e9f0e8;--muted:#9fb1a2;--green:#5cb86a;--green-d:#8fd69a;--line:#2b3a2e;--on-green:#0f1a11}}
+:root[data-theme="dark"]{--bg:#121a14;--card:#1b261e;--text:#e9f0e8;--muted:#9fb1a2;--green:#5cb86a;--green-d:#8fd69a;--line:#2b3a2e;--on-green:#0f1a11}
+*{box-sizing:border-box}
+html{scroll-padding-top:70px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{padding:16px 0;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{font-weight:800;font-size:1.15rem;color:var(--green-d)}
+nav{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+nav a:not(.btn){color:var(--text);text-decoration:none;font-weight:600}
+.btn{display:inline-block;background:var(--green);color:var(--on-green);padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:700}
+.btn.alt{background:transparent;color:var(--green-d);border:2px solid var(--green)}
+.hero{padding:64px 0 40px;text-align:center}
+.hero h1{font-size:clamp(2rem,6vw,3.2rem);line-height:1.15;margin:0 0 14px}
+.hero p{max-width:580px;margin:0 auto 26px;color:var(--muted);font-size:1.1rem}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+section{padding:40px 0}
+h2{font-size:1.7rem;margin:0 0 6px}
+h3{margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}
+.card.main{border:2px solid var(--green)}
+.card ul{margin:10px 0 0;padding-left:20px;color:var(--muted)}
+.tag{display:inline-block;background:var(--green);color:var(--on-green);font-size:.8rem;font-weight:700;padding:2px 12px;border-radius:999px;margin-bottom:8px}
+.quote{font-size:1.5rem;font-weight:800;color:var(--green-d);margin:8px 0 2px}
+.fee{margin-top:12px;padding-top:12px;border-top:1px solid var(--line);font-size:.95rem}
+.fee b{color:var(--green-d)}
+.note{color:var(--muted);font-size:.92rem;margin-top:18px}
+.mission{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:36px 28px;text-align:center}
+.mission p{max-width:640px;margin:12px auto 0;font-size:1.08rem}
+.contact{text-align:center;background:var(--green);color:var(--on-green);border-radius:20px;padding:44px 20px}
+.contact .btn{background:var(--on-green);color:var(--green-d);margin:6px}
+footer{padding:28px 0;text-align:center;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<header><div class="wrap"><span class="logo">🌿 Honey-Do Services</span>
+<nav><a href="#services">Services</a><a href="#mission">Our Mission</a><a class="btn" href="#contact">Get a Quote</a></nav></div></header>
+
+<div class="wrap">
+<div class="hero">
+<h1>Precision lawn care &amp; reliable junk removal.</h1>
+<p>Dedicated, detail-focused service for your yard and your home. Every job is quoted to fit your property.</p>
+<div class="btns"><a class="btn" href="#contact">Request a Quote</a><a class="btn alt" href="#mission">Our Mission</a></div>
+</div>
+
+<section id="services">
+<h2>Lawn Care</h2>
+<p class="sub">Every lawn is quoted individually based on lot size and condition.</p>
+<div class="card main">
+<h3>Complete Lawn Service</h3>
+<ul><li>Full mow</li><li>Weed whacking along fences, beds, and obstacles</li><li>Crisp edging of walks, driveways, and borders</li><li>Leaf blowing to clear all hard surfaces</li><li>Optional green waste removal, available for all lots</li></ul>
+</div>
+<div class="grid" style="margin-top:18px">
+<div class="card"><span class="tag">Small</span><h3>2,500 to 7,500 sq ft</h3><div class="quote">Quoted</div><div class="fee">Overgrowth fee: <b>$20</b></div></div>
+<div class="card"><span class="tag">Medium</span><h3>7,501 to 12,999 sq ft</h3><div class="quote">Quoted</div><div class="fee">Overgrowth fee: <b>$35</b></div></div>
+<div class="card"><span class="tag">Large</span><h3>13,000 sq ft to 1 acre</h3><div class="quote">Quoted</div><div class="fee">Overgrowth fee: <b>$45+</b></div></div>
+</div>
+<p class="note">An overgrowth fee may be added to your quote when grass or weeds are well past normal height and need extra time and effort. Over an acre? Message us for a custom quote.</p>
+</section>
+
+<section>
+<h2>Moving &amp; Junk Removal</h2>
+<p class="sub">Clear the clutter without lifting a finger.</p>
+<div class="card main">
+<h3>Hauling Done Right</h3>
+<div class="quote">Quoted by the job</div>
+<ul><li>Furniture and appliance removal</li><li>Garage, shed, and yard cleanouts</li><li>Moving help and heavy item hauling</li></ul>
+<p class="note">Pricing varies with the size and type of the load. Contact us for a fair, upfront quote.</p>
+</div>
+</section>
+
+<section>
+<h3>Also Offering Handy Work</h3>
+<p class="sub">Minor repairs and odd jobs around the home or yard, quoted by the job.</p>
+</section>
+
+<section id="mission">
+<div class="mission">
+<h2>Our Mission</h2>
+<p>At Honey-Do Services, our main focus is excellence. We have been around these services our whole lives, and we have lived by the values of dedication and precision.</p>
+<p>That is what we bring to every customer we serve: careful work, honest communication, and results you can see.</p>
+</div>
+</section>
+
+<section id="contact">
+<div class="contact">
+<h2>Ready for a better yard?</h2>
+<p>Call, text, or email for a free quote.</p>
+<a class="btn" href="tel:4058881693">Call (405) 888-1693</a>
+<a class="btn" href="mailto:HoneyDoServicesOK@gmail.com">Email Us</a>
+</div>
+</section>
+</div>
+<footer>© 2026 Honey-Do Services. Call (405) 888-1693 or email HoneyDoServicesOK@gmail.com</footer>
+</body>
+</html>
